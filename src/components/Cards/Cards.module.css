@@ -1,0 +1,55 @@
+.container{
+    margin: 50px 0;
+    width: 70%;
+}
+.card{
+    display: flex;
+
+    margin: 1% 4% !important;
+    background-color:#292929 !important;
+    color: antiquewhite !important;
+   
+}
+.infected{
+    border-bottom: 10px solid #FAD458 ;
+    filter: drop-shadow(10px 5px 15px #FAD458);
+}
+.infected:hover{
+    background-color: #FAD458 !important;
+    color: #292929 !important;
+    border-bottom: 10px solid #292929 ;  
+}
+.recovered{
+    border-bottom: 10px solid #4DFA6C ;
+    filter: drop-shadow(10px 5px 15px #4DFA6C);
+
+}
+.recovered:hover{
+    background-color: #4DFA6C !important;
+    color: #292929 !important;
+    border-bottom: 10px solid #292929 ;  
+}
+.deaths{
+    border-bottom: 10px solid #F5885D ;
+    filter:drop-shadow(10px 5px 15px #F5885D);
+
+}
+.deaths:hover{
+    background-color: #F5885D !important;
+    color: #292929 !important;
+    border-bottom: 10px solid #292929 ; 
+}
+.title{
+    font-size: 1.5rem !important;
+    font-weight: 600!important;
+}
+.count{
+    font-size: 1.7rem !important;
+    font-weight: 800!important;
+    padding: 0.6rem 0 !important;
+}
+.lastUp{
+  
+  padding: 0.5rem 0 !important;
+  align-self: flex-end;
+}

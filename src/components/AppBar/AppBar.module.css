@@ -1,0 +1,17 @@
+.container{
+    width: 100%;
+    margin-bottom: 50px!important;
+}
+.appBar{
+    background-color: rgb(65, 65, 65) !important;
+    height: 80px!important;
+    color: antiquewhite!important;
+    align-items: center!important;
+
+}
+.name{
+    font-weight: 800!important;
+    font-family: 'Lato', sans-serif!important;
+    padding: 30% 0% !important;
+
+}
