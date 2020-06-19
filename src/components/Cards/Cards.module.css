@@ -1,10 +1,10 @@
 .container{
     margin: 50px 0;
-    width: 70%;
+    width: 60%;
 }
 .card{
     display: flex;
-
+justify-content: center!important;
     margin: 1% 4% !important;
     background-color:#292929 !important;
     color: antiquewhite !important;

@@ -25,7 +25,7 @@ export default function ButtonAppBar() {
     const classes = useStyles();
     return (
         <div className={cx(classes.root, styles.container)}>
-            <AppBar position="static" color="black" className={styles.appBar}>
+            <AppBar position="static" className={styles.appBar}>
                 <Toolbar>
 
                     <Typography variant="h4" className={cx(classes.title, styles.name)}> Covid 19 Tracker </Typography>
